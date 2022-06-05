@@ -6,21 +6,360 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Odin Project - Recipes Project</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Odin Recipes</h1>
-        <img src="https://images.unsplash.com/photo-1513135557534-682d53fd7046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
-        alt="chopping food image">
-        <nav>
-            <ul>
-                <li><a href="recipes/bananapancakes.html">Banana Pancakes</a></li>
-                <li><a href="recipes/duckburgerchips.html">Duck Burger with Chips</a></li>
-                <li><a href="recipes/coronationchicken.html">Coronation Chicken</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">The Odin Project</span>
+                <span class="heading-primary--sub">Recipes for Success</span>
+            </h1>
+        </div>
     </header>
+
+    <main>
+
+        <section class="section-recipes">
+
+            <div class="u-centre-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    My Top 3 Recipes
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+
+                    <!-- CARD 1 -->
+
+                    <div class="card-rotate">
+                        <!-- CARD FRONT -->
+                        <div class="card-rotate__side card-rotate__side--front">
+                            <!-- CARD FRONT IMAGE -->
+                            <div class="card-rotate__picture card-rotate__picture--1">
+                                &nbsp;
+                            </div>
+                            <!-- CARD FRONT HEADER -->
+                            <h4 class="card-rotate__heading">
+                                <span class="card-rotate__heading-span card-rotate__heading-span--1">
+                                    Banana Pancakes
+                                </span>
+                            </h4>
+                            <!-- CARD FRONT DETAILS -->
+                            <div class="card-rotate__details">
+                                <ul>
+                                    <li>Prep in less than 30 mins</li>
+                                    <li>Cook in less than 10 mins</li>
+                                    <li>Makes 6 small pancakes</li>
+                                    <li>Vegan Friendly: YES</li>
+                                    <li>Difficulty: Easy</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- CARD BACK -->
+                        <div class="card-rotate__side card-rotate__side--back card-rotate__side--back-1">
+
+                            <div class="card-rotate__cta">
+
+                                <div class="card-rotate__price">
+                                    <p class="card-rotate__price-only">
+                                        These quick and easy banana pancakes are dairy-free and eggless. They can be
+                                        ready
+                                        in just 10 minutes, and wolfed down in one! Perfect for busy mornings.
+
+                                        Each pancake (without the optional toppings) provides 119 kcal, 2.5g protein,
+                                        22g
+                                        carbohydrates (of which 5g sugars), 2g fat (of which 1.5g saturates), 1.5g fibre
+                                        and
+                                        0.22g salt.
+                                    </p>
+                                </div>
+                                <a href="#popup1" class="btn btn--white">Read More!</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-1-of-3">
+
+                    <!-- CARD 2 -->
+
+                    <div class="card-rotate">
+                        <!-- CARD FRONT -->
+                        <div class="card-rotate__side card-rotate__side--front">
+                            <!-- CARD FRONT IMAGE -->
+                            <div class="card-rotate__picture card-rotate__picture--2">
+                                &nbsp;
+                            </div>
+                            <!-- CARD FRONT HEADER -->
+                            <h4 class="card-rotate__heading">
+                                <span class="card-rotate__heading-span card-rotate__heading-span--2">
+                                    Duck Burger and Chips
+                                </span>
+                            </h4>
+                            <!-- CARD FRONT DETAILS -->
+                            <div class="card-rotate__details">
+                                <ul>
+                                    <li>Prep in less than 30 mins</li>
+                                    <li>Cook in 10 to 30 mins</li>
+                                    <li>Serves 2</li>
+                                    <li>Vegan Friendly: NO</li>
+                                    <li>Difficulty: Medium</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- CARD BACK -->
+                        <div class="card-rotate__side card-rotate__side--back card-rotate__side--back-2">
+
+                            <div class="card-rotate__cta">
+
+                                <div class="card-rotate__price">
+                                    <p class="card-rotate__price-only">
+                                        This is a burger like no other: a melting scoop of Vacherin cheese encased in
+                                        minced
+                                        duck meat and served in a brioche bun with girolle mushrooms. Delish.
+
+                                        Equipment and preparation: You will need a mincer for this recipe
+                                        (alternatively,
+                                        ask your butcher to mince the duck meat).
+                                    </p>
+
+                                </div>
+                                <a href="#popup2" class="btn btn--white">Read More!</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-1-of-3">
+
+                    <!-- CARD 3 -->
+
+                    <div class="card-rotate">
+                        <!-- CARD FRONT -->
+                        <div class="card-rotate__side card-rotate__side--front">
+                            <!-- CARD FRONT IMAGE -->
+                            <div class="card-rotate__picture card-rotate__picture--3">
+                                &nbsp;
+                            </div>
+                            <!-- CARD FRONT HEADER -->
+                            <h4 class="card-rotate__heading">
+                                <span class="card-rotate__heading-span card-rotate__heading-span--3">
+                                    Coronation Chicken
+                                </span>
+                            </h4>
+                            <!-- CARD FRONT DETAILS -->
+                            <div class="card-rotate__details">
+                                <ul>
+                                    <li>Prep in less than 30 mins</li>
+                                    <li>Cook in 10 to 30 mins</li>
+                                    <li>Serves 4</li>
+                                    <li>Vegan Friendly: NO</li>
+                                    <li>Difficulty: Hard</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- CARD BACK -->
+                        <div class="card-rotate__side card-rotate__side--back card-rotate__side--back-3">
+
+                            <div class="card-rotate__cta">
+
+                                <div class="card-rotate__price">
+                                    <p class="card-rotate__price-only">
+                                        Step back into 1952 and showcase the classic coronation chicken salad for a
+                                        delicious nostalgic lunch. This is not a bashed-together mayo and mango chutney
+                                        affair, this is the real deal and fit for a queen.
+                                    </p>
+                                </div>
+                                <a href="#popup3" class="btn btn--white">Read More!</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <footer></footer>
+
+        <div class="popup1" id="popup1">
+            <div class="popup1__content">
+                <div class="popup1__left">
+                    <h2 class="heading-secondary u-margin-bottom-small">Ingredients</h2>
+                    <ul>
+                        <li>120g plain flour</li>
+                        <li>1 tsp baking powder</li>
+                        <li>160g peeled banana</li>
+                        <li>120ml out milk</li>
+                        <li>3 tsp coconut oil</li>
+                        <li>Handful of bluberries</li>
+                        <li>1 additional sliced banana</li>
+                    </ul>
+                </div>
+                <div class="popup1__right">
+                    <a href="#section-recipes" class="popup1__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Cooking Method</h2>
+                    <p class="popup1__text">
+                        <ol>
+                            <li>Chop 160g of banna and add to a blender with the flour, baking powder and oat milk, and
+                                blend until
+                                smooth.</li>
+                            <li>Heat 1 tsp of coconut oil in a frying pan over a medium heat.</li>
+                            <li>Spoon in the mixture from step 1. 1 table spoon produces 1 pancake.</li>
+                            <li>Heat on both sides until golden brown, adding more oil if necessary</li>
+                            <li>Repeat until all pancakes are finished</li>
+                            <li>Top with a condoment of your choice, such as maple syrup, along with the bluebarries and
+                                chopped banana
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            popup 2
+         -->
+
+        <div class="popup2" id="popup2">
+            <div class="popup2__content">
+                <div class="popup2__left">
+                    <h2 class="heading-secondary u-margin-bottom-small">Ingredients</h2>
+                    <ul>
+                        <li>2 large duck breasts</li>
+                        <li>2 tbsp Vacherin cheese, scopped from the middle</li>
+                        <li>2 banana shallots, peeled and sliced into thin strips</li>
+                        <li>1 tbsp butter</li>
+                        <li>250g girolle mushrooms, cleaned</li>
+                        <li>2 brioche buns</li>
+                    </ul>
+                </div>
+                <div class="popup2__right">
+                    <a href="#section-recipes" class="popup2__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Cooking Method</h2>
+                    <p class="popup2__text">
+                        <ol>
+                            <li>For the duck burger, roughly remove about two-thirds of the fat from each duck
+                                breast and then chop them
+                                into chunks and pass through a mincer. Season the meat well and form into two
+                                balls using your hands.
+                            </li>
+                            <li>Take one ball of meat and push a scoop of Vacherin into the centre. Form the
+                                meat around the Vacherin
+                                and pat down a little to make a classic burger shape. Repeat with the remaining
+                                ball and scoop of
+                                cheese.</li>
+                            <li>Preheat the oil in a deep fat fryer to 160C/325F (CAUTION: hot oil can be
+                                dangerous: Do not leave
+                                unattended.)</li>
+                            <li>Rinse the chipped potatoes under cold running water to remove any excess
+                                starch. Dry thoroughly on a
+                                clean tea towel and then place into the hot oil to cook for about 8-10 minutes.
+                                The chips should begin
+                                to lightly colour on the outside and be soft enough to crush between your
+                                fingers.</li>
+                            <li>Carefully remove the chips from the oil with a slotted spoon and drain on a
+                                plate lined with kitchen
+                                paper. Increase the oil temperature to 180C/350F</li>
+                            <li>In the meantime, heat a griddle pan over a high heat. Once hot, add the burgers
+                                and fry for 3-4 minutes
+                                on each side until nicely cooked on each side and just cooked through in the
+                                middle. If you like your
+                                burger fully cooked through, place in a hot oven for a few minutes to finish.
+                                Otherwise, place the
+                                burgers on to a plate to rest.</li>
+                            <li>Place the sliced shallots onto the hot griddle to caramelise. Cook for about
+                                two minutes.</li>
+                            <li>Heat the butter in a separate pan over a high heat. Add the mushrooms and fry
+                                for 3-4 minutes, or until
+                                just softened.</li>
+                            <li>When you are ready to eat, add the chips to the hot oil and cook for 2-3
+                                minutes, or until golden-brown
+                                and crisp. Remove and drain on a plate lined with kitchen paper.</li>
+                            <li>Serve the duck burgers with the shallots and mushrooms in a brioche bun.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+                     popup 3 
+                    -->
+
+        <div class="popup3" id="popup3">
+            <div class="popup3__content">
+                <div class="popup3__left">
+                    <h2 class="heading-secondary u-margin-bottom-small">Ingredients</h2>
+                    <ul>
+                        <li>2 chicken breasts, skin removed</li>
+                        <li>1 tbsp olive oil</li>
+                        <li>1 unwaxed lemon, zest and juice</li>
+                        <li>knob of butter</li>
+                        <li>1 shallot, finely chopped</li>
+                        <li>1 red chilli, deseeded and finely chopped</li>
+                        <li>2 tsp madras curry powder</li>
+                        <li>2 tbsp tomato purée</li>
+                        <li>100ml/3½fl oz dry white wine</li>
+                        <li>100ml/3½fl oz chicken stock</li>
+                        <li>1 tbsp apricot jam</li>
+                        <li>150ml/5fl oz mayonnaise</li>
+                        <li>75ml/3fl oz crème fraîche</li>
+                        <li>1 large mango, peeled, stone removed, flesh diced</li>
+                        <li>4 spring onions, finely chopped</li>
+                        <li>2 tbsp finely chopped fresh coriander</li>
+                        <li>dash Tabasco sauce</li>
+                        <li>salt and freshly ground black pepper</li>
+                        <li>green salad leaves, to serve</li>
+                        <li>50g/2oz flaked almonds (toasted lightly dry frying pan), to serve</li>
+                    </ul>
+                </div>
+                <div class="popup3__right">
+                    <a href="#section-recipes" class="popup3__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Cooking Method</h2>
+                    <p class="popup3__text">
+                        <ol>
+                            <li>Rub the olive oil all over the chicken. Scatter over the lemon zest
+                                and season with salt and pepper.
+                            </li>
+                            <li>Steam the chicken for 20–25 minutes, or until cooked through. Set
+                                aside to cool.</li>
+                            <li>Melt the butter in a frying pan, add the shallot and chilli and
+                                cook for 5 minutes. Stir in the curry
+                                powder and cook for 2–3 minutes. Stir in the tomato purée and cook
+                                for a further minute. Add the wine
+                                and simmer until the volume of the liquid has reduced by half.</li>
+                            <li>Stir in the jam and stock, and simmer until the volume of the
+                                liquid has reduced by half. Set aside to
+                                cool.</li>
+                            <li>Mix the mayonnaise and the crème fraîche together in a bowl, then
+                                stir in the curry dressing. Fold in
+                                the mango, spring onions, lemon juice and coriander.</li>
+                            <li>Cut the chicken into bite-sized pieces. Fold into the curry
+                                dressing and season with salt, pepper and
+                                Tabasco to taste. Serve with a green salad, and scatter with the
+                                toasted almond flakes.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
 </body>
 
 </html>
